@@ -4,6 +4,15 @@ Visualizing and Comparing Multiple OpenAI Gym Experiments
 ## Ever wanted to visualize and compare multiple experimental runs from OpenAI?
 Me too.
 
+<img src="https://raw.githubusercontent.com/korymath/gym-multiplot/master/images/example-reward.png?raw=true"/>
+
+## Basic usage, multiple runs in /runs, saves images to /images
+~~~~
+from multiplot import *
+graphOut = mp('runs')
+~~~~
+
+
 ## How do I use this?
 1. Start with the notebook, see if it fits your needs.
 2. Copy over some experimenal results worth comparing, there are currently a few example folders here so that you can get a sense of the structure and funcionality.
@@ -20,9 +29,8 @@ Second, drop an issue and let's figure out how to make this work more robustly t
 ## What's next?
 There are lots more statistics to capture from OpenAI gym, and this just shows a single sample... 
 
-![length example](https://github.com/korymath/gym-multiplot/blob/master/images/example-length.png?raw=true)
-
-![reward example](https://raw.githubusercontent.com/korymath/gym-multiplot/master/images/example-reward.png)
-
 ## Thanks
 [JKCooper2](https://github.com/JKCooper2) for the quick help early on.
+
+## More examples
+<img src="https://github.com/korymath/gym-multiplot/blob/master/images/example-length.png?raw=true"/>
